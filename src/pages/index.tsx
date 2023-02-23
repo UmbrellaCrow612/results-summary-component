@@ -16,9 +16,9 @@ export default function Page() {
       className={`min-h-screen flex items-center justify-center ${roboto.className}`}
     >
       {/* Box container */}
-      <div className="w-[45rem] h-[29rem] rounded-3xl grid grid-cols-2 grid-rows-1 shadow-xl">
+      <div className="md:w-[45rem] md:h-[29rem] md:rounded-3xl grid shadow-xl md:grid-cols-2 md:grid-rows-1 grid-cols-1 grid-rows-2 w-full">
         {/* Result box */}
-        <div className="flex flex-col items-center gap-6 py-6 rounded-3xl bg-gradient-to-b from-[#7857FF] to-[#2E2BE9]">
+        <div className="flex flex-col items-center gap-6 py-6 md:rounded-3xl bg-gradient-to-b from-[#7857FF] to-[#2E2BE9]">
           <p className="text-2xl font-semibold text-[#C8C7FF]">Your Result</p>
           {/* Circle */}
           <div className="w-[12rem] gap-2 h-[12rem] rounded-full flex items-center justify-center flex-col bg-gradient-to-b from-[#4E21CA] to-[#2f2dd2]">
